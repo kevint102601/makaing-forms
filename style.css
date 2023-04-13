@@ -1,0 +1,30 @@
+body {
+    padding: 10px;
+  }
+  form label{
+    /* font-weight: bold; */
+    margin: 5px;
+    
+  }
+  form input, form textarea {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  form textarea {
+    height: 100px;
+  }
+.group {
+  flex-direction: row;
+  align-items: center;
+}
+  .item {
+    flex: 1;
+    /* margin: 10px; */
+  }
+  form {
+    align-items: center;
+    justify-content: center;
+  }
+  form div {
+    flex-direction: column;
+  }
